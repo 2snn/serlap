@@ -1,0 +1,48 @@
+
+/* Title */
+.logo-text {
+  font-size: 100px;
+  font-weight: bold;
+  color: #fffff;
+  margin-top: 500px;
+  margin-bottom: 200px;
+  position: relative;
+}
+
+.navigation {
+  font-size: 100px;
+  font-weight: bold;
+  color: #fffff;
+  margin-top: 500px;
+  margin-bottom: 200px;
+}
+
+/* 상단메뉴바 */
+
+.nav-menu {
+text-color: #3333;
+width: 100%;
+padding-right: 0px;
+padding-left: 0px;
+ -webkit-box-pack: justify;
+ -webkit-justify-content: space-between;
+ -ms-flex-pack: justify;
+justify-content: space-between;
+}
+
+.link-nav {
+padding: 10px;
+}
+
+.w-nav-link:hover {
+text-color: #blak;
+font-weight: bold;
+}
+
+.nav-menu a:hover {
+text-decoration: underline;
+}
+
+
+/* 타이틀 영상넣기 */
+
