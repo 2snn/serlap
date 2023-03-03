@@ -1,48 +1,49 @@
 
 /* Title */
 .logo-text {
-  font-size: 100px;
-  font-weight: bold;
-  color: #fffff;
-  margin-top: 500px;
-  margin-bottom: 200px;
-  position: relative;
-}
+        font-size: 100px;
+        font-weight: bold;
+        color: #fffff;
+        margin-top: 500px;
+        margin-bottom: 200px;
+        position: relative;
+    }
 
 .navigation {
-  font-size: 100px;
-  font-weight: bold;
-  color: #fffff;
-  margin-top: 500px;
-  margin-bottom: 200px;
+        font-size: 100px;
+        font-weight: bold;
+        color: #fffff;
 }
 
 /* 상단메뉴바 */
 
-.nav-menu {
-text-color: #3333;
-width: 100%;
-padding-right: 0px;
-padding-left: 0px;
- -webkit-box-pack: justify;
- -webkit-justify-content: space-between;
- -ms-flex-pack: justify;
-justify-content: space-between;
-}
+    .nav-menu {
+      text-color: #3333;
+      width: 100%;
+      padding-right: 0px;
+      padding-left: 0px;
+       -webkit-box-pack: justify;
+       -webkit-justify-content: space-between;
+       -ms-flex-pack: justify;
+      justify-content: space-between;
+      margin-top: 200px;
+      padding-bottom: 500px;
+    }
 
-.link-nav {
-padding: 10px;
-}
+    .link-nav {padding: 10px;}
 
-.w-nav-link:hover {
-text-color: #blak;
-font-weight: bold;
-}
-
-.nav-menu a:hover {
-text-decoration: underline;
-}
+    .w-nav-link:hover {
+      text-color: #blak;
+      font-weight: bold;
+    }
 
 
 /* 타이틀 영상넣기 */
 
+[role="main.img"] {
+  width: 120%;
+  height: 120%;
+  object-fit: cover;
+  z-index: -1;
+  margin-top: 300px;
+  margin-bottom: 0px;}
