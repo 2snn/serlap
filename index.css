@@ -1,39 +1,4 @@
 <style>
-  /* Logo */
-
- .logo img{
-  display: inline-block;
-  height: 25px; /* 로고 이미지 높이 */
-  width: auto;
-  margin-top: 40px;
-  padding-left: 70px;
-}
-
-
-  /* 상단메뉴바 */
-
- .nav-menu {
-  position: fixed;
-  top: 100px;
-  right: 70px;
-  background-color: #ffffff;
-  font-size: 16px;
-  color: #000;
-}
-
-.link-nav {
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: bold;
-  color: #333333;
-  margin-right: 20px;
-}
-
-.link-nav:hover {
-  color: #000000;
-}
-  
-
 /* 브라우저 마진과 패딩 리셋 */
 	* {margin-top:20px;padding:0;}
 	
