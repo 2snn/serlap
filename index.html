@@ -44,7 +44,15 @@
         rel="apple-touch-icon" />
 </head>
 
-<!-- 로고 -->
+
+<!doctype html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>슬라이드</title>
+  
+  <!-- 로고 -->
   <div class="logo">
     <a href="https://2snn.github.io/serlap/" 
       aria-current="page" 
@@ -54,23 +62,54 @@
   </div>
     </a>
   
-
-    
 <!-- 메뉴페이지 -->
   
  <nav role="navigation" 
-    
  class="nav-menu w-nav-menu">
- <a href="first.html">the first</a>
-    
+ <a href="first.html" aria-current="page" 
+ class="link-nav w-nav-link w--current">
+  the first</a>
  <a href="first.html" 
- class="link-nav w-nav-link">two</a>
-    
+ class="link-nav w-nav-link">
+  the second</a>
  <a href="first.html" 
- class="link-nav w-nav-link">third</a>
+ class="link-nav w-nav-link">
+  third</a>
  </nav>
- </div>
- </div>
+  
+
+	<style>
+  /* Logo */
+ .logo img{
+  display: inline-block;
+  height: 25px; /* 로고 이미지 높이 */
+  width: auto;
+  margin-top: 40px;
+  padding-left: 70px;
+}
+
+
+  /* 상단메뉴바 */
+ .nav-menu {
+  position: fixed;
+  top: 100px;
+  right: 70px;
+  background-color: #ffffff;
+  font-size: 16px;
+  color: #000;
+}
+
+.link-nav {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333;
+  margin-right: 20px;
+}
+
+.link-nav:hover {
+  color: #000000;
+}
   
  
 <body>
